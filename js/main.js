@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ) {
     loggedIn.classList.add("guest");
     setTimeout(() => {
+      localStorage.clear()
       location.href = "https://gendyvip.github.io/Snacksy/pages/login.html";
       sessionStorage.setItem("showLoginAlert", true);
     }, 1000);
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     location.href === "https://gendyvip.github.io/Snacksy/pages/snacks.html" &&
     localStorage.length === 0
   ) {
+    localStorage.clear()
     loggedInShop.classList.add("guest");
     setTimeout(() => {
       location.href = "https://gendyvip.github.io/Snacksy/pages/login.html";
