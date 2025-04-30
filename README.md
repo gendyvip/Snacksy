@@ -1,46 +1,41 @@
 # 🍿 Snacksy - Snack Discovery Web App
 
-![Snacksy Screenshot]([./screenshots/snacksy-demo.gif](https://storage.perfectcdn.com/glb8z1/71e66tmtmhlg4iir.png)) *<!-- Add a screenshot if available -->*
+![Snacksy Preview](https://storage.perfectcdn.com/glb8z1/71e66tmtmhlg4iir.png)
 
 A responsive web application built as part of my ITI journey, offering an interactive platform to discover and shop for delicious snacks.
 
 ## ✨ Features
 
 - **User Authentication**
-  - Secure login/registration using real API
-  - JWT token validation
-  - User profile management
+  - Secure login/registration
+  - Profile management dashboard
+  - Password update functionality
 
 - **Product Catalog**
-  - Fetch products from FakeStoreAPI
-  - Filter by category (chips, chocolates, nuts)
-  - Price range filtering
+  - 50+ snack products from FakeStoreAPI
+  - Category filters (chips, chocolates, nuts)
+  - Price range slider (₹50-₹500)
 
-- **Shopping Experience**
-  - Add to cart functionality
-  - Favorites system (localStorage)
-  - Responsive design for all devices
+- **Shopping Features**
+  - Add to cart with quantity adjustment
+  - Favorites system with localStorage
+  - Responsive on mobile/tablet/desktop
 
-- **UI/UX**
-  - Smooth animations and transitions
-  - Bootstrap 5 components
-  - Font Awesome icons
-  - Mobile-first approach
+## 🛠️ Tech Stack
 
-## 🛠️ Technologies Used
+**Frontend:**
+- HTML5, CSS3, JavaScript (ES6+)
+- Bootstrap 5 (Grid, Components, Utilities)
+- Font Awesome 6 (200+ icons)
 
-- **Frontend**
-  - HTML5, CSS3
-  - JavaScript (ES6+)
-  - Bootstrap 5
-  - Font Awesome
+**APIs:**
+- Auth0 for user authentication
+- FakeStoreAPI for product data
+- LocalStorage for persistent data
 
-- **APIs**
-  - Real backend API for authentication
-  - FakeStoreAPI for products
+## 🚀 Quick Start
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/gendyvip/Snacksy.git
+```bash
+git clone https://github.com/gendyvip/Snacksy.git
+cd Snacksy
+# Open index.html in any browser
