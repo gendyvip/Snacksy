@@ -1,0 +1,26 @@
+.contact-container {
+    background: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-weight: bold;
+}
+
+.contact-info p {
+    color: #666;
+}
+
+.submit-btn {
+    background-color: #4d4f4c;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.submit-btn:hover {
+    background-color: #323331;
+    color: #ddd;
+}

@@ -1,0 +1,17 @@
+  .login-body {
+    background: #fafafa;
+    min-height: calc(100vh - 375px);
+    width: 100%;
+  }
+  .login-container {
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+    padding: 40px 32px;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+  }
+  #loginFail,
+  #loginSuccess{
+    display: none;
+  }

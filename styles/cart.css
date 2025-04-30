@@ -1,0 +1,39 @@
+.product-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.quantity-input {
+    width: 60px;
+    text-align: center;
+}
+.cart-totals {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.product-title {
+    font-weight: 600;
+}
+.discount-badge {
+    font-size: 0.8rem;
+}
+.stock-status {
+    font-size: 0.8rem;
+}
+.in-stock {
+    color: #28a745;
+}
+.low-stock {
+    color: #dc3545;
+}
+.quantityAlert{
+    display: block
+}
+.alertPos{
+    top:20%;
+    left: 40%;
+}
+
+#quantityAlertCont{
+    display: none;
+}

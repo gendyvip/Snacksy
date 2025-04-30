@@ -1,0 +1,219 @@
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --text-color: #1f2937;
+    --light-gray: #f3f4f6;
+    --medium-gray: #e5e7eb;
+    --dark-gray: #6b7280;
+    --danger-color: #dc2626;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+}
+
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.account-header h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+/* Settings Card */
+.settings-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.settings-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--medium-gray);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--medium-gray);
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--medium-gray);
+}
+
+.btn-outline:hover {
+    background-color: var(--light-gray);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #b91c1c;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid var(--medium-gray);
+}
+.w-26{
+    width: 180px;
+
+}
+.w-30{
+    width: 200px;
+}
+
+@media (max-width: 992px) {
+    .main-content {
+      padding: 15px;
+    }
+    
+    .d-flex {
+      flex-direction: column;
+    }
+    
+    .settings-card {
+      width: 100% !important;
+      margin-right: 0 !important;
+      margin-bottom: 20px;
+    }
+    
+    .form-row {
+      flex-direction: column;
+    }
+    
+    .form-group {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    
+    .avatar-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .account-header h1 {
+      font-size: 1.8rem;
+    }
+    
+    .settings-card h2 {
+      font-size: 1.5rem;
+    }
+    
+    .footer-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .footer-section {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .footer-links {
+      justify-content: center;
+    }
+    
+    .social-icons, .payment-methods {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand img {
+      width: 120px;
+    }
+    
+    .account-header h1 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    
+    .settings-card {
+      padding: 15px;
+    }
+    
+    .btn {
+      width: 100% !important;
+    }
+  }

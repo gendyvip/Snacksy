@@ -1,0 +1,41 @@
+.about-section {
+    padding: 60px 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+  }
+  .about-section h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  .about-highlight {
+    font-weight: 600;
+    color: #40613a;
+  }
+  .svg-background {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 200px;
+    opacity: 0.1;
+    z-index: 0;
+  }
+  .svg-bottom-left {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    width: 200px;
+    opacity: 0.08;
+    z-index: 0;
+  }
+  .content {
+    position: relative;
+    z-index: 1;
+  }

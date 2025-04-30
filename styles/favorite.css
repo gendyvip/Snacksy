@@ -1,0 +1,11 @@
+.product-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.product-title {
+    font-weight: 600;
+}
+.contBody{
+    min-height: calc(100vh - 375px)
+}

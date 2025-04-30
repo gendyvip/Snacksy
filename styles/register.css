@@ -1,0 +1,54 @@
+.registration-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+  }
+  .password-strength {
+    height: 5px;
+    margin-top: 5px;
+    background-color: #e9ecef;
+    border-radius: 3px;
+    overflow: hidden;
+    display: none;
+  }
+  .password-strength-text {
+    display: none;
+  }
+  .password-strength-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+    .is-invalid {
+      border-color: #dc3545;
+    }
+    .is-valid {
+      border-color: #28a745;
+    }
+  .invalid-feedback {
+    display: none;
+    color: #dc3545;
+    font-size: 0.875em;
+  }
+  .was-validated .form-control:invalid ~ .invalid-feedback,
+  .was-validated .form-control:invalid ~ .invalid-tooltip,
+  .form-control.is-invalid ~ .invalid-feedback,
+  .form-control.is-invalid ~ .invalid-tooltip {
+    display: block;
+  }
+  #signUpSuccess,
+  #signUpFail {
+    display: none;
+  }
+  .terms {
+    color: #888;
+    text-decoration: none;
+  }
