@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const loggedInShop = document.getElementById("snacks");
 
   if (
-    location.href === "http://127.0.0.1:5500/pages/home.html" &&
+    location.href === "https://gendyvip.github.io/Snacksy/pages/home.html" &&
     localStorage.length === 0
   ) {
     loggedIn.classList.add("guest");
     setTimeout(() => {
-      location.href = "http://127.0.0.1:5500/pages/login.html";
+      location.href = "https://gendyvip.github.io/Snacksy/pages/login.html";
       sessionStorage.setItem("showLoginAlert", true);
     }, 1000);
   }
@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   if (
-    location.href === "http://127.0.0.1:5500/pages/snacks.html" &&
+    location.href === "https://gendyvip.github.io/Snacksy/pages/snacks.html" &&
     localStorage.length === 0
   ) {
     loggedInShop.classList.add("guest");
     setTimeout(() => {
-      location.href = "http://127.0.0.1:5500/pages/login.html";
+      location.href = "https://gendyvip.github.io/Snacksy/pages/login.html";
       sessionStorage.setItem("showLoginAlert", true);
     }, 1000);
   }
