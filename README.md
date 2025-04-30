@@ -1,6 +1,6 @@
 # 🍿 Snacksy - Snack Discovery Web App
 
-![Snacksy Screenshot](./screenshots/snacksy-demo.gif) *<!-- Add a screenshot if available -->*
+![Snacksy Screenshot]([./screenshots/snacksy-demo.gif](https://storage.perfectcdn.com/glb8z1/71e66tmtmhlg4iir.png)) *<!-- Add a screenshot if available -->*
 
 A responsive web application built as part of my ITI journey, offering an interactive platform to discover and shop for delicious snacks.
 
