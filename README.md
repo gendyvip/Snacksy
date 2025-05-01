@@ -37,5 +37,5 @@ A responsive web application built as part of my ITI journey, offering an intera
 
 ```bash
 git clone https://github.com/gendyvip/Snacksy.git
-cd Snacksy
-# Open index.html in any browser
+cd pages
+# Open register.html in any browser
